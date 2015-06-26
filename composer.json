@@ -1,0 +1,32 @@
+{
+    "name": "jimmyoak/arrayed-object",
+    "authors": [
+        {
+            "name": "Adrián Robles",
+            "email": "adrian.robles.maiz@gmail.com",
+            "homepage": "http://github.com/jimmyoak"
+        }
+    ],
+    "license": "MIT",
+    "keywords": ["arrayed", "object", "instantiator", "jimmy", "jimmyoak"],
+    "require": {
+        "php": ">=5.5.0",
+        "jimmyoak/utilities": "2.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=3.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JimmyOak\\ArrayedObject\\": "src/ArrayedObject/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JimmyOak\\Test\\ArrayedObject\\": "test/ArrayedObject/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/"
+    }
+}
